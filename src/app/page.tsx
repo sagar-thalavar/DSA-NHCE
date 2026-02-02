@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <footer className="mt-12 pt-6 border-t border-[var(--border)] text-xs text-[var(--text-muted)]">
-        One table, three fields. Insert, read, search, update, delete, sort, and aggregate.
+        One table, three fields. Insert, read, search, update, delete, sort, and aggregate.-by sagar r thalavar
       </footer>
     </main>
   );
