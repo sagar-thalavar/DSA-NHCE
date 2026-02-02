@@ -1,15 +1,11 @@
-import { insertSingle } from "@/lib/actions";
-
-async function handleInsert(formData: FormData) {
-  await insertSingle(formData);
-}
+import { insertSingleForm } from "@/lib/actions";
 
 export function InsertSection() {
   return (
     <section className="section-card">
       <h2 className="section-title">Add entry</h2>
       <p className="section-desc">One form: text (title), number (value), and content.</p>
-      <form action={handleInsert} className="space-y-3 max-w-md">
+      <form action={insertSingleForm} className="space-y-3 max-w-md">
         <div>
           <label className="label">Title (text)</label>
           <input name="title" className="input" required placeholder="e.g. My note" />

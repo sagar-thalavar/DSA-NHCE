@@ -19,6 +19,10 @@ export async function insertSingle(formData: FormData) {
   return { data: rows[0] as Entry, error: null };
 }
 
+export async function insertSingleForm(formData: FormData) {
+  await insertSingle(formData);
+}
+
 // ——— ACCESS ———
 export async function fetchById(id: number) {
   const rows = await sql`
