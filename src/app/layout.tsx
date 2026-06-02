@@ -12,8 +12,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Data Operations Playground",
-  description: "Fundamental data operations on PostgreSQL (NeonDB)",
+  title: "DataOps Zeta",
+  description: "Interactive PostgreSQL Operations Playground",
 };
 
 export default function RootLayout({
